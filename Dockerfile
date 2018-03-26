@@ -96,5 +96,5 @@ LABEL org.label-schema.name="RapidPro" \
       org.label-schema.version=$RAPIDPRO_VERSION \
       org.label-schema.schema-version="1.0"
 
-CMD ["/startup.sh"]
+CMD ["/startup.sh $TYPE"]
 
