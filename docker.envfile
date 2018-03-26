@@ -8,3 +8,4 @@ MANAGEPY_MIGRATE=on
 MANAGEPY_IMPORT_GEOJSON=on
 # Use Uganda Relation ID as a test
 OSM_RELATION_IDS=192796
+TYPE=celery
