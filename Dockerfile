@@ -98,5 +98,5 @@ LABEL org.label-schema.name="RapidPro" \
 
 ARG TYPE
 ENV TYPE=${TYPE:-rapidpro}
-CMD ["/startup.sh", "${TYPE}"]
+CMD ["/startup.sh", $TYPE]
 
