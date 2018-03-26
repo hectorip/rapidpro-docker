@@ -96,5 +96,7 @@ LABEL org.label-schema.name="RapidPro" \
       org.label-schema.version=$RAPIDPRO_VERSION \
       org.label-schema.schema-version="1.0"
 
+ARG TYPE
+ENV TYPE=${TYPE:-rapidpro}
 CMD ["/startup.sh", "${TYPE}"]
 
